@@ -1,10 +1,10 @@
 <script setup>
-
 </script>
 
 <template>
   <main>
     <nav>
+      <RouterLink to="/login">Go to LogIn</RouterLink>
       <RouterLink to="/">Go to Todo list</RouterLink>
       <RouterLink to="/api">Go to API</RouterLink>
     </nav>
